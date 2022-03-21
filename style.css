@@ -26,3 +26,8 @@
 .free{
     background-color: hsl(248, 32%, 49%);
 }
+@media screen and (max-width: 575px) {
+     #flex{
+         flex-direction: column;
+     }
+}
